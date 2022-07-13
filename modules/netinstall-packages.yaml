@@ -1,0 +1,2639 @@
+# Auto generated descriptions from /etc/calamares/modules/netinstall-packages.yaml.ORIG
+- name: " *  Developers Choice  *"
+  description: " A much smaller subset of packages than listed below"
+  critical: false
+  selected: false
+  expanded: false
+  subgroups:
+     - name: "  epiphany-browser"
+       description: "  Intuitive GNOME web browser"
+       packages:
+          - epiphany-browser
+     - name: "  falkon"
+       description: "  lightweight web browser based on Qt WebEngine"
+       packages:
+          - falkon
+     - name: "  firefox-esr"
+       description: "  Mozilla Firefox web browser - Extended Support Release (ESR)"
+       packages:
+          - firefox-esr
+     - name: "  chromium"
+       description: "  web browser"
+       packages:
+          - chromium
+     - name: "  konqueror"
+       description: "  advanced file manager, web browser and document viewer"
+       packages:
+          - konqueror
+     - name: "  luakit"
+       description: "  fast and small web browser extensible by Lua"
+       packages:
+          - luakit
+     - name: "  midori"
+       description: "  fast, lightweight graphical web browser"
+       packages:
+          - midori
+     - name: "  qutebrowser"
+       description: "  Keyboard-driven, vim-like browser based on PyQt5"
+       packages:
+          - qutebrowser
+     - name: "  torbrowser-launcher"
+       description: "  helps download and run the Tor Browser Bundle"
+       packages:
+          - torbrowser-launcher
+     - name: "  transmission"
+       description: "  lightweight BitTorrent client"
+       packages:
+          - transmission
+     - name: "  youtube-dl"
+       description: "  downloader of videos from web page."
+       packages:
+          - youtube-dl
+     - name: "  arandr"
+       description: "  Simple visual front end for XRandR"
+       packages:
+          - arandr
+     - name: "  atril"
+       description: "  MATE document viewer"
+       packages:
+          - atril
+     - name: "  dconf-editor"
+       description: "  simple configuration storage system - graphical editor"
+       packages:
+          - dconf-editor
+     - name: "  gpicview"
+       description: "  lightweight image viewer"
+       packages:
+          - gpicview
+     - name: "  mate-calc"
+       description: "  MATE desktop calculator"
+       packages:
+          - mate-calc
+     - name: "  parole"
+       description: "  media player based on GStreamer framework"
+       packages:
+          - parole
+     - name: "  pmount"
+       description: "  mount removable devices as normal user"
+       packages:
+          - pmount
+     - name: "  flatpak"
+       description: "  Application deployment framework for desktop apps"
+       packages:
+          - flatpak
+     - name: "  gnome-software"
+       description: "  Software Center for GNOME"
+       packages:
+          - gnome-software
+     - name: "  snapd"
+       description: "  Daemon and tooling that enable snap packages"
+       packages:
+          - snapd
+- name: ""
+  description: ""
+  critical: false
+  selected: false
+  immutable: true
+  expanded: false
+  subgroups:
+- name: "Xfce4 Goodies selections" 
+  description: "The full package or choice of Xfce4 Goodies Packages"
+  critical: false
+  selected: false
+  expanded: true
+  subgroups:
+     - name: "Xfce4 Goodies - Pack"
+       description: "A META package to install everything XFCE4 from Debian Stable repositories"
+       expanded: false
+       subgroups:
+          - name: "  xfce4-goodies"
+            description: "  enhancements for the Xfce4 Desktop Environment"
+            packages:
+               - xfce4-goodies
+     - name: "Xfce4 Goodies - Components"
+       description: "Individual applications to add to the packages already installed"
+       expanded: false
+       subgroups:
+          - name: "  xfce4-battery-plugin"
+            description: "  battery monitor plugin for the Xfce4 panel"
+            packages:
+               - xfce4-battery-plugin
+          - name: "  xfce4-clipman-plugin"
+            description: "  clipboard history plugin for Xfce panel"
+            packages:
+               - xfce4-clipman-plugin
+          - name: "  xfce4-cpufreq-plugin"
+            description: "  cpufreq information plugin for the Xfce4 panel"
+            packages:
+               - xfce4-cpufreq-plugin
+          - name: "  xfce4-cpugraph-plugin"
+            description: "  CPU load graph plugin for the Xfce4 panel"
+            packages:
+               - xfce4-cpugraph-plugin
+          - name: "  xfce4-datetime-plugin"
+            description: "  date and time plugin for the Xfce4 panel"
+            packages:
+               - xfce4-datetime-plugin
+          - name: "  xfce4-dict"
+            description: "  Dictionary plugin for Xfce4 panel"
+            packages:
+               - xfce4-dict
+          - name: "  xfce4-diskperf-plugin"
+            description: "  disk performance display plugin for the Xfce4 panel"
+            packages:
+               - xfce4-diskperf-plugin
+          - name: "  xfce4-fsguard-plugin"
+            description: "  filesystem monitor plugin for the Xfce4 panel"
+            packages:
+               - xfce4-fsguard-plugin
+          - name: "  xfce4-genmon-plugin"
+            description: "  Generic Monitor for the Xfce4 panel"
+            packages:
+               - xfce4-genmon-plugin
+          - name: "  xfce4-indicator-plugin"
+            description: "  plugin to display information from applications in the Xfce4 panel"
+            packages:
+               - xfce4-indicator-plugin
+          - name: "  xfce4-mailwatch-plugin"
+            description: "  mail watcher plugin for the Xfce4 panel"
+            packages:
+               - xfce4-mailwatch-plugin
+          - name: "  xfce4-mpc-plugin"
+            description: "  Xfce panel plugin which serves as client for MPD music player"
+            packages:
+               - xfce4-mpc-plugin
+          - name: "  xfce4-netload-plugin"
+            description: "  network load monitor plugin for the Xfce4 panel"
+            packages:
+               - xfce4-netload-plugin
+          - name: "  xfce4-notifyd"
+            description: "  simple, visually-appealing notification daemon for Xfce"
+            packages:
+               - xfce4-notifyd
+          - name: "  xfce4-places-plugin"
+            description: "  quick access to folders, documents and removable media"
+            packages:
+               - xfce4-places-plugin
+          - name: "  xfce4-power-manager"
+            description: "  power manager for Xfce desktop"
+            packages:
+               - xfce4-power-manager
+          - name: "  xfce4-screenshooter"
+            description: "  screenshots utility for Xfce"
+            packages:
+               - xfce4-screenshooter
+          - name: "  xfce4-sensors-plugin"
+            description: "  hardware sensors plugin for the Xfce4 panel"
+            packages:
+               - xfce4-sensors-plugin
+          - name: "  xfce4-smartbookmark-plugin"
+            description: "  search the web via the Xfce4 panel"
+            packages:
+               - xfce4-smartbookmark-plugin
+          - name: "  xfce4-systemload-plugin"
+            description: "  system load monitor plugin for the Xfce4 panel"
+            packages:
+               - xfce4-systemload-plugin
+          - name: "  xfce4-taskmanager"
+            description: "  process manager for the Xfce4 Desktop Environment"
+            packages:
+               - xfce4-taskmanager
+          - name: "  xfce4-terminal"
+            description: "  Xfce terminal emulator"
+            packages:
+               - xfce4-terminal
+          - name: "  xfce4-timer-plugin"
+            description: "  timer plugin for Xfce panel"
+            packages:
+               - xfce4-timer-plugin
+          - name: "  xfce4-verve-plugin"
+            description: "  Verve (command line) plugin for Xfce panel"
+            packages:
+               - xfce4-verve-plugin
+          - name: "  xfce4-wavelan-plugin"
+            description: "  wavelan status plugin for the Xfce4 panel"
+            packages:
+               - xfce4-wavelan-plugin
+          - name: "  xfce4-weather-plugin"
+            description: "  weather information plugin for the Xfce4 panel"
+            packages:
+               - xfce4-weather-plugin
+          - name: "  xfce4-whiskermenu-plugin"
+            description: "  Alternate menu plugin for the Xfce desktop environment"
+            packages:
+               - xfce4-whiskermenu-plugin
+          - name: "  xfce4-xkb-plugin"
+            description: "  xkb layout switch plugin for the Xfce4 panel"
+            packages:
+               - xfce4-xkb-plugin
+          - name: "  gigolo"
+            description: "  frontend to manage connections to remote filesystems using GIO/GVfs"
+            packages:
+               - gigolo
+          - name: "  mousepad"
+            description: "  simple Xfce oriented text editor"
+            packages:
+               - mousepad
+          - name: "  parole"
+            description: "  media player based on GStreamer framework"
+            packages:
+               - parole
+          - name: "  ristretto"
+            description: "  lightweight picture-viewer for the Xfce desktop environment"
+            packages:
+               - ristretto
+          - name: "  thunar-archive-plugin"
+            description: "  Archive plugin for Thunar file manager"
+            packages:
+               - thunar-archive-plugin
+          - name: "  thunar-media-tags-plugin"
+            description: "  Media tags plugin for Thunar file manager"
+            packages:
+               - thunar-media-tags-plugin
+          - name: "  xfburn"
+            description: "  CD-burner application for Xfce Desktop Environment"
+            packages:
+               - xfburn
+- name: "Internet Applications"
+  description: "Web Browsers, E-Mail, Social Clients, DownLoaders and tools"
+  critical: false
+  selected: false
+  expanded: false
+  subgroups:
+     - name: "Web Browsers"
+       description: "A Collection Of Browsers for the internet or local LAN"
+       subgroups:
+          - name: "Chromium Web Browser"
+            description: "Googles Open Source web browser and content viewer"
+            subgroups:
+               - name: "  chromium"
+                 description: "  web browser"
+                 packages:
+                    - chromium
+          - name: "chromium-Language Pack"
+            description: "Language Pack For chromium"
+            subgroups:
+               - name: "  chromium-l10n"
+                 description: "  web browser - language packs"
+                 packages:
+                    - chromium-l10n
+          - name: "  elinks"
+            description: "  advanced text-mode WWW browser"
+            packages:
+               - elinks
+          - name: "  epiphany-browser"
+            description: "  Intuitive GNOME web browser"
+            packages:
+               - epiphany-browser
+          - name: "  falkon"
+            description: "  lightweight web browser based on Qt WebEngine"
+            packages:
+               - falkon
+          - name: "Firefox-ESR"
+            description: "Extended Service Release of FireFox from Debian Stable"
+            subgroups:
+               - name: "  firefox-esr"
+                 description: "  Mozilla Firefox web browser - Extended Support Release (ESR)"
+                 packages:
+                    - firefox-esr
+          - name: "Firefox-esr Language Packs"
+            description: "Language Packs For Firefox-esr"
+            subgroups:
+               - name: "  firefox-esr-l10n-ach"
+                 description: "  Acoli language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ach
+               - name: "  firefox-esr-l10n-af"
+                 description: "  Afrikaans language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-af
+               - name: "  firefox-esr-l10n-all"
+                 description: "  All language packages for Firefox ESR (meta)"
+                 packages:
+                    - firefox-esr-l10n-all
+               - name: "  firefox-esr-l10n-an"
+                 description: "  Aragonese language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-an
+               - name: "  firefox-esr-l10n-ar"
+                 description: "  Arabic language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ar
+               - name: "  firefox-esr-l10n-ast"
+                 description: "  Asturian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ast
+               - name: "  firefox-esr-l10n-az"
+                 description: "  Azerbaijani language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-az
+               - name: "  firefox-esr-l10n-be"
+                 description: "  Belarusian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-be
+               - name: "  firefox-esr-l10n-bg"
+                 description: "  Bulgarian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-bg
+               - name: "  firefox-esr-l10n-bn"
+                 description: "  Bengali language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-bn
+               - name: "  firefox-esr-l10n-br"
+                 description: "  Breton language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-br
+               - name: "  firefox-esr-l10n-bs"
+                 description: "  Bosnian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-bs
+               - name: "  firefox-esr-l10n-ca"
+                 description: "  Catalan language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ca
+               - name: "  firefox-esr-l10n-cak"
+                 description: "  Kaqchikel language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-cak
+               - name: "  firefox-esr-l10n-cs"
+                 description: "  Czech language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-cs
+               - name: "  firefox-esr-l10n-cy"
+                 description: "  Welsh language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-cy
+               - name: "  firefox-esr-l10n-da"
+                 description: "  Danish language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-da
+               - name: "  firefox-esr-l10n-de"
+                 description: "  German language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-de
+               - name: "  firefox-esr-l10n-dsb"
+                 description: "  Lower Sorbian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-dsb
+               - name: "  firefox-esr-l10n-el"
+                 description: "  Modern Greek language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-el
+               - name: "  firefox-esr-l10n-en-ca"
+                 description: "  English (Canada) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-en-ca
+               - name: "  firefox-esr-l10n-en-gb"
+                 description: "  English (United Kingdom) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-en-gb
+               - name: "  firefox-esr-l10n-eo"
+                 description: "  Esperanto language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-eo
+               - name: "  firefox-esr-l10n-es-ar"
+                 description: "  Spanish (Argentina) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-es-ar
+               - name: "  firefox-esr-l10n-es-cl"
+                 description: "  Spanish (Chile) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-es-cl
+               - name: "  firefox-esr-l10n-es-es"
+                 description: "  Spanish (Spain) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-es-es
+               - name: "  firefox-esr-l10n-es-mx"
+                 description: "  Spanish (Mexico) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-es-mx
+               - name: "  firefox-esr-l10n-et"
+                 description: "  Estonian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-et
+               - name: "  firefox-esr-l10n-eu"
+                 description: "  Basque language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-eu
+               - name: "  firefox-esr-l10n-fa"
+                 description: "  Persian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-fa
+               - name: "  firefox-esr-l10n-ff"
+                 description: "  Fulah language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ff
+               - name: "  firefox-esr-l10n-fi"
+                 description: "  Finnish language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-fi
+               - name: "  firefox-esr-l10n-fr"
+                 description: "  French language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-fr
+               - name: "  firefox-esr-l10n-fy-nl"
+                 description: "  Western Frisian (Netherlands) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-fy-nl
+               - name: "  firefox-esr-l10n-ga-ie"
+                 description: "  Irish (Ireland) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ga-ie
+               - name: "  firefox-esr-l10n-gd"
+                 description: "  Scottish Gaelic language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-gd
+               - name: "  firefox-esr-l10n-gl"
+                 description: "  Galician language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-gl
+               - name: "  firefox-esr-l10n-gn"
+                 description: "  Guarani language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-gn
+               - name: "  firefox-esr-l10n-gu-in"
+                 description: "  Gujarati (India) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-gu-in
+               - name: "  firefox-esr-l10n-hr"
+                 description: "  Croatian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-hr
+               - name: "  firefox-esr-l10n-hsb"
+                 description: "  Upper Sorbian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-hsb
+               - name: "  firefox-esr-l10n-hu"
+                 description: "  Hungarian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-hu
+               - name: "  firefox-esr-l10n-hy-am"
+                 description: "  Armenian (Armenia) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-hy-am
+               - name: "  firefox-esr-l10n-ia"
+                 description: "  Interlingua language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ia
+               - name: "  firefox-esr-l10n-id"
+                 description: "  Indonesian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-id
+               - name: "  firefox-esr-l10n-is"
+                 description: "  Icelandic language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-is
+               - name: "  firefox-esr-l10n-it"
+                 description: "  Italian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-it
+               - name: "  firefox-esr-l10n-ja"
+                 description: "  Japanese language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ja
+               - name: "  firefox-esr-l10n-ka"
+                 description: "  Georgian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ka
+               - name: "  firefox-esr-l10n-kab"
+                 description: "  Kabyle language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-kab
+               - name: "  firefox-esr-l10n-kk"
+                 description: "  Kazakh language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-kk
+               - name: "  firefox-esr-l10n-km"
+                 description: "  Central Khmer language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-km
+               - name: "  firefox-esr-l10n-kn"
+                 description: "  Kannada language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-kn
+               - name: "  firefox-esr-l10n-ko"
+                 description: "  Korean language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ko
+               - name: "  firefox-esr-l10n-ia"
+                 description: "  Interlingua language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ia
+               - name: "  firefox-esr-l10n-id"
+                 description: "  Indonesian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-id
+               - name: "  firefox-esr-l10n-is"
+                 description: "  Icelandic language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-is
+               - name: "  firefox-esr-l10n-it"
+                 description: "  Italian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-it
+               - name: "  firefox-esr-l10n-ja"
+                 description: "  Japanese language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ja
+               - name: "  firefox-esr-l10n-ka"
+                 description: "  Georgian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ka
+               - name: "  firefox-esr-l10n-kab"
+                 description: "  Kabyle language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-kab
+               - name: "  firefox-esr-l10n-kk"
+                 description: "  Kazakh language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-kk
+               - name: "  firefox-esr-l10n-km"
+                 description: "  Central Khmer language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-km
+               - name: "  firefox-esr-l10n-kn"
+                 description: "  Kannada language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-kn
+               - name: "  firefox-esr-l10n-ko"
+                 description: "  Korean language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ko
+               - name: "  firefox-esr-l10n-lt"
+                 description: "  Lithuanian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-lt
+               - name: "  firefox-esr-l10n-lv"
+                 description: "  Latvian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-lv
+               - name: "  firefox-esr-l10n-mk"
+                 description: "  Macedonian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-mk
+               - name: "  firefox-esr-l10n-mr"
+                 description: "  Marathi language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-mr
+               - name: "  firefox-esr-l10n-ms"
+                 description: "  Malay language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ms
+               - name: "  firefox-esr-l10n-my"
+                 description: "  Burmese language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-my
+               - name: "  firefox-esr-l10n-nb-no"
+                 description: "  Norwegian Bokmål (Norway) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-nb-no
+               - name: "  firefox-esr-l10n-ne-np"
+                 description: "  Nepali (Nepal) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ne-np
+               - name: "  firefox-esr-l10n-nl"
+                 description: "  Dutch language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-nl
+               - name: "  firefox-esr-l10n-nn-no"
+                 description: "  Norwegian Nynorsk (Norway) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-nn-no
+               - name: "  firefox-esr-l10n-oc"
+                 description: "  Occitan language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-oc
+               - name: "  firefox-esr-l10n-pa-in"
+                 description: "  Panjabi (India) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-pa-in
+               - name: "  firefox-esr-l10n-pl"
+                 description: "  Polish language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-pl
+               - name: "  firefox-esr-l10n-pt-br"
+                 description: "  Portuguese (Brazil) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-pt-br
+               - name: "  firefox-esr-l10n-pt-pt"
+                 description: "  Portuguese (Portugal) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-pt-pt
+               - name: "  firefox-esr-l10n-rm"
+                 description: "  Romansh language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-rm
+               - name: "  firefox-esr-l10n-ro"
+                 description: "  Romanian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ro
+               - name: "  firefox-esr-l10n-ru"
+                 description: "  Russian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ru
+               - name: "  firefox-esr-l10n-si"
+                 description: "  Sinhala language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-si
+               - name: "  firefox-esr-l10n-sk"
+                 description: "  Slovak language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-sk
+               - name: "  firefox-esr-l10n-sl"
+                 description: "  Slovenian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-sl
+               - name: "  firefox-esr-l10n-son"
+                 description: "  Songhai languages language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-son
+               - name: "  firefox-esr-l10n-sq"
+                 description: "  Albanian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-sq
+               - name: "  firefox-esr-l10n-sr"
+                 description: "  Serbian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-sr
+               - name: "  firefox-esr-l10n-sv-se"
+                 description: "  Swedish (Sweden) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-sv-se
+               - name: "  firefox-esr-l10n-ta"
+                 description: "  Tamil language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ta
+               - name: "  firefox-esr-l10n-te"
+                 description: "  Telugu language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-te
+               - name: "  firefox-esr-l10n-th"
+                 description: "  Thai language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-th
+               - name: "  firefox-esr-l10n-tr"
+                 description: "  Turkish language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-tr
+               - name: "  firefox-esr-l10n-uk"
+                 description: "  Ukrainian language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-uk
+               - name: "  firefox-esr-l10n-ur"
+                 description: "  Urdu language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-ur
+               - name: "  firefox-esr-l10n-uz"
+                 description: "  Uzbek language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-uz
+               - name: "  firefox-esr-l10n-vi"
+                 description: "  Vietnamese language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-vi
+               - name: "  firefox-esr-l10n-xh"
+                 description: "  Xhosa language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-xh
+               - name: "  firefox-esr-l10n-zh-cn"
+                 description: "  Chinese (China) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-zh-cn
+               - name: "  firefox-esr-l10n-zh-tw"
+                 description: "  Chinese (Taiwan) language package for Firefox ESR"
+                 packages:
+                    - firefox-esr-l10n-zh-tw
+          - name: "  links"
+            description: "  Web browser running in text mode"
+            packages:
+               - links
+          - name: "  links2"
+            description: "  Web browser running in both graphics and text mode"
+            packages:
+               - links2
+          - name: "  midori"
+            description: "  fast, lightweight graphical web browser"
+            packages:
+               - midori
+          - name: "  torbrowser-launcher"
+            description: "  helps download and run the Tor Browser Bundle"
+            packages:
+               - torbrowser-launcher
+     - name: "E-mail Clients"
+       description: "Various Email Clients"
+       subgroups:
+          - name: "  alpine"
+            description: "  Text-based email client, friendly for novices but powerful"
+            packages:
+               - alpine
+          - name: "  claws-mail"
+            description: "  Fast, lightweight and user-friendly GTK+2 based email client"
+            packages:
+               - claws-mail
+          - name: "  evolution"
+            description: "  groupware suite with mail client and organizer"
+            packages:
+               - evolution
+          - name: "  geary"
+            description: "  lightweight email client designed for the GNOME desktop"
+            packages:
+               - geary
+          - name: "  kmail"
+            description: "  full featured graphical email client"
+            packages:
+               - kmail
+          - name: "Thunderbird E-Mail client"
+            description: "A cross platform standalone mail/news reader supporting POP/POP3 and IMAP protocols"
+            subgroups:
+               - name: "  thunderbird"
+                 description: "  mail/news client with RSS, chat and integrated spam filter support"
+                 packages:
+                    - thunderbird
+          - name: "Thunderbird Language Packs"
+            description: "Language Packs and text direction converter"
+            subgroups:
+               - name: "  thunderbird-bidiui"
+                 description: "  BiDirectional support for Thunderbird"
+                 packages:
+                    - thunderbird-bidiui
+               - name: "  thunderbird-l10n-all"
+                 description: "  All language packages for Thunderbird (meta)"
+                 packages:
+                    - thunderbird-l10n-all
+               - name: "  thunderbird-l10n-ar"
+                 description: "  Arabic language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-ar
+               - name: "  thunderbird-l10n-ast"
+                 description: "  Asturian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-ast
+               - name: "  thunderbird-l10n-be"
+                 description: "  Belarusian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-be
+               - name: "  thunderbird-l10n-bg"
+                 description: "  Bulgarian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-bg
+               - name: "  thunderbird-l10n-br"
+                 description: "  Breton language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-br
+               - name: "  thunderbird-l10n-ca"
+                 description: "  Catalan/Valencian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-ca
+               - name: "  thunderbird-l10n-cs"
+                 description: "  Czech language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-cs
+               - name: "  thunderbird-l10n-cy"
+                 description: "  Welsh language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-cy
+               - name: "  thunderbird-l10n-da"
+                 description: "  Danish language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-da
+               - name: "  thunderbird-l10n-de"
+                 description: "  German language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-de
+               - name: "  thunderbird-l10n-dsb"
+                 description: "  Lower Sorbian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-dsb
+               - name: "  thunderbird-l10n-el"
+                 description: "  Greek language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-el
+               - name: "  thunderbird-l10n-en-gb"
+                 description: "  English (Great Britain) language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-en-gb
+               - name: "  thunderbird-l10n-es-ar"
+                 description: "  Spanish (Argentina) language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-es-ar
+               - name: "  thunderbird-l10n-es-es"
+                 description: "  Spanish (Spain) language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-es-es
+               - name: "  thunderbird-l10n-et"
+                 description: "  Estonian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-et
+               - name: "  thunderbird-l10n-eu"
+                 description: "  Basque language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-eu
+               - name: "  thunderbird-l10n-fi"
+                 description: "  Finnish language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-fi
+               - name: "  thunderbird-l10n-fr"
+                 description: "  French language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-fr
+               - name: "  thunderbird-l10n-fy-nl"
+                 description: "  Frisian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-fy-nl
+               - name: "  thunderbird-l10n-ga-ie"
+                 description: "  Irish (Ireland) language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-ga-ie
+               - name: "  thunderbird-l10n-gd"
+                 description: "  Gaelic (Scottish) language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-gd
+               - name: "  thunderbird-l10n-gl"
+                 description: "  Galician language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-gl
+               - name: "  thunderbird-l10n-he"
+                 description: "  Hebrew language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-he
+               - name: "  thunderbird-bidiui"
+                 description: "  BiDirectional support for Thunderbird"
+                 packages:
+                    - thunderbird-bidiui
+               - name: "  thunderbird-l10n-hr"
+                 description: "  Croatian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-hr
+               - name: "  thunderbird-l10n-hsb"
+                 description: "  Upper Sorbian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-hsb
+               - name: "  thunderbird-l10n-hu"
+                 description: "  Hungarian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-hu
+               - name: "  thunderbird-l10n-hy-am"
+                 description: "  Armenian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-hy-am
+               - name: "  thunderbird-l10n-id"
+                 description: "  Indonesian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-id
+               - name: "  thunderbird-l10n-is"
+                 description: "  Icelandic language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-is
+               - name: "  thunderbird-l10n-it"
+                 description: "  Italian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-it
+               - name: "  thunderbird-l10n-ja"
+                 description: "  Japanese language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-ja
+               - name: "  thunderbird-l10n-kab"
+                 description: "  Kabyle language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-kab
+               - name: "  thunderbird-l10n-kk"
+                 description: "  Kazakh language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-kk
+               - name: "  thunderbird-l10n-ko"
+                 description: "  Korean language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-ko
+               - name: "  thunderbird-l10n-lt"
+                 description: "  Lithuanian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-lt
+               - name: "  thunderbird-l10n-ms"
+                 description: "  Malay language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-ms
+               - name: "  thunderbird-l10n-nl"
+                 description: "  Dutch language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-nl
+               - name: "  thunderbird-l10n-pl"
+                 description: "  Polish language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-pl
+               - name: "  thunderbird-l10n-pt-br"
+                 description: "  Portuguese (Brazil) language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-pt-br
+               - name: "  thunderbird-l10n-pt-pt"
+                 description: "  Portuguese (Portugal) language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-pt-pt
+               - name: "  thunderbird-l10n-rm"
+                 description: "  Romansh language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-rm
+               - name: "  thunderbird-l10n-ro"
+                 description: "  Romania language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-ro
+               - name: "  thunderbird-l10n-ru"
+                 description: "  Russian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-ru
+               - name: "  thunderbird-l10n-si"
+                 description: "  Sinhala language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-si
+               - name: "  thunderbird-l10n-sq"
+                 description: "  Albanian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-sq
+               - name: "  thunderbird-l10n-sr"
+                 description: "  Serbian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-sr
+               - name: "  thunderbird-l10n-sv-se"
+                 description: "  Swedish (Sweden) language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-sv-se
+               - name: "  thunderbird-l10n-tr"
+                 description: "  Turkish language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-tr
+               - name: "  thunderbird-l10n-uk"
+                 description: "  Ukrainian language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-uk
+               - name: "  thunderbird-l10n-vi"
+                 description: "  Vietnamese language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-vi
+               - name: "  thunderbird-l10n-zh-tw"
+                 description: "  Chinese (Taiwan) language package for Thunderbird"
+                 packages:
+                    - thunderbird-l10n-zh-tw
+          - name: "Thunderbird Add-Ons"
+            description: "Additional desktop enhancements for Thundebird Mail"
+            subgroups:
+               - name: "  birdtray"
+                 description: "  system tray notifications for Thunderbird"
+                 packages:
+                    - birdtray
+               - name: "  lightning"
+                 description: "  Calendar Extension for Thunderbird - Transitional package"
+                 packages:
+                    - lightning
+               - name: "  thunderbird-bidiui"
+                 description: "  BiDirectional support for Thunderbird"
+                 packages:
+                    - thunderbird-bidiui
+     - name: "Social Clients / Chat Software"
+       description: "Social Video & Chat Clients"
+       subgroups:
+          - name: "  finch"
+            description: "  text-based multi-protocol instant messaging client"
+            packages:
+               - finch
+          - name: "  hexchat"
+            description: "  IRC client for X based on X-Chat 2"
+            packages:
+               - hexchat
+          - name: "  hexchat-plugins"
+            description: "  Common plugins for HexChat"
+            packages:
+               - hexchat-plugins
+          - name: "  jami"
+            description: "  Secure and distributed voice, video, and chat platform - desktop client"
+            packages:
+               - jami
+          - name: "  mumble"
+            description: "  Low latency encrypted VoIP client"
+            packages:
+               - mumble
+          - name: "  pidgin"
+            description: "  graphical multi-protocol instant messaging client"
+            packages:
+               - pidgin
+          - name: "  psi"
+            description: "  Qt-based XMPP client"
+            packages:
+               - psi
+          - name: "  tkabber"
+            description: "  GUI client for XMPP (Jabber) instant messaging protocol"
+            packages:
+               - tkabber
+     - name: "Download Managers"
+       description: "Various Download & Torrent Managers"
+       subgroups:
+          - name: "  deluge"
+            description: "  bittorrent client written in Python/PyGTK"
+            packages:
+               - deluge
+          - name: "  filezilla"
+            description: "  Full-featured graphical FTP/FTPS/SFTP client"
+            packages:
+               - filezilla
+          - name: "  ktorrent"
+            description: "  BitTorrent client based on the KDE platform"
+            packages:
+               - ktorrent
+          - name: "  qbittorrent"
+            description: "  bittorrent client based on libtorrent-rasterbar with a Qt5 GUI"
+            packages:
+               - qbittorrent
+          - name: "  transmission-gtk"
+            description: "  lightweight BitTorrent client (GTK+ interface)"
+            packages:
+               - transmission-gtk
+     - name: "Networking Tools"
+       description: "Various Network and Networking tools and utilities"
+       subgroups:
+          - name: "  ufw"
+            description: "  program for managing a Netfilter firewall"
+            packages:
+               - ufw
+          - name: "  gufw"
+            description: "  graphical user interface for ufw"
+            packages:
+               - gufw
+          - name: "  iptraf-ng"
+            description: "  Next Generation Interactive Colorful IP LAN Monitor"
+            packages:
+               - iptraf-ng
+          - name: "  samba"
+            description: "  SMB/CIFS file, print, and login server for Unix"
+            packages:
+               - samba
+          - name: "  wireshark"
+            description: "  network traffic analyzer - meta-package"
+            packages:
+               - wireshark
+- name: "Office Suites"
+  description: "Select from the suite or components, plus add-ons"
+  critical: false
+  selected: false
+  expanded: false
+  subgroups:
+     - name: "LibreOffice - Suites"
+       description: "Selection of Suites, components, Language Packs and add-ons"
+       subgroups:
+          - name: "  libreoffice"
+            description: "  office productivity suite (metapackage)"
+            packages:
+               - libreoffice
+          - name: "  libreoffice-gnome"
+            description: "  office productivity suite -- GNOME integration"
+            packages:
+               - libreoffice-gnome
+          - name: "  libreoffice-gtk3"
+            description: "  office productivity suite -- GTK+ 3 integration"
+            packages:
+               - libreoffice-gtk3
+     - name: "LibreOffice - Comopnents"
+       description: "Individual packages of utilities from the LibreOffice Suite"
+       subgroups:
+          - name: "LibreOffice-Base"
+            description: "Component used to connect to and utilize DataBase connections"
+            subgroups:
+               - name: "  libreoffice-base"
+                 description: "  office productivity suite -- database"
+                 packages:
+                    - libreoffice-base
+               - name: "  libreoffice-report-builder"
+                 description: "  LibreOffice component for building database reports"
+                 packages:
+                    - libreoffice-report-builder
+          - name: "  libreoffice-calc"
+            description: "  office productivity suite -- spreadsheet"
+            packages:
+               - libreoffice-calc
+          - name: "  libreoffice-draw"
+            description: "  office productivity suite -- drawing"
+            packages:
+               - libreoffice-draw
+          - name: "  libreoffice-impress"
+            description: "  office productivity suite -- presentation"
+            packages:
+               - libreoffice-impress
+          - name: "  libreoffice-math"
+            description: "  office productivity suite -- equation editor"
+            packages:
+               - libreoffice-math
+          - name: "  libreoffice-writer"
+            description: "  office productivity suite -- word processor"
+            packages:
+               - libreoffice-writer
+     - name: "LibreOffice - Language Packs"
+       description: "Language Packs For LibreOffice"
+       subgroups:
+          - name: "  libreoffice-l10n-af"
+            description: "  office productivity suite -- Afrikaans language package"
+            packages:
+               - libreoffice-l10n-af
+          - name: "  libreoffice-l10n-am"
+            description: "  office productivity suite -- Amharic language package"
+            packages:
+               - libreoffice-l10n-am
+          - name: "  libreoffice-l10n-ar"
+            description: "  office productivity suite -- Arabic language package"
+            packages:
+               - libreoffice-l10n-ar
+          - name: "  libreoffice-l10n-as"
+            description: "  office productivity suite -- Assamese language package"
+            packages:
+               - libreoffice-l10n-as
+          - name: "  libreoffice-l10n-ast"
+            description: "  office productivity suite -- Asturian language package"
+            packages:
+               - libreoffice-l10n-ast
+          - name: "  libreoffice-l10n-be"
+            description: "  office productivity suite -- Belarusian language package"
+            packages:
+               - libreoffice-l10n-be
+          - name: "  libreoffice-l10n-bg"
+            description: "  office productivity suite -- Bulgarian language package"
+            packages:
+               - libreoffice-l10n-bg
+          - name: "  libreoffice-l10n-bn"
+            description: "  office productivity suite -- Bengali language package"
+            packages:
+               - libreoffice-l10n-bn
+          - name: "  libreoffice-l10n-br"
+            description: "  office productivity suite -- Breton language package"
+            packages:
+               - libreoffice-l10n-br
+          - name: "  libreoffice-l10n-bs"
+            description: "  office productivity suite -- Bosnian language package"
+            packages:
+               - libreoffice-l10n-bs
+          - name: "  libreoffice-l10n-ca"
+            description: "  office productivity suite -- Catalan language package"
+            packages:
+               - libreoffice-l10n-ca
+          - name: "  libreoffice-l10n-cs"
+            description: "  office productivity suite -- Czech language package"
+            packages:
+               - libreoffice-l10n-cs
+          - name: "  libreoffice-l10n-cy"
+            description: "  office productivity suite -- Welsh language package"
+            packages:
+               - libreoffice-l10n-cy
+          - name: "  libreoffice-l10n-da"
+            description: "  office productivity suite -- Danish language package"
+            packages:
+               - libreoffice-l10n-da
+          - name: "  libreoffice-l10n-de"
+            description: "  office productivity suite -- German language package"
+            packages:
+               - libreoffice-l10n-de
+          - name: "  libreoffice-l10n-dz"
+            description: "  office productivity suite -- Dzongkha language package"
+            packages:
+               - libreoffice-l10n-dz
+          - name: "  libreoffice-l10n-el"
+            description: "  office productivity suite -- Greek language package"
+            packages:
+               - libreoffice-l10n-el
+          - name: "  libreoffice-l10n-en-gb"
+            description: "  office productivity suite -- English_british language package"
+            packages:
+               - libreoffice-l10n-en-gb
+          - name: "  libreoffice-l10n-en-za"
+            description: "  office productivity suite -- English_southafrican language package"
+            packages:
+               - libreoffice-l10n-en-za
+          - name: "  libreoffice-l10n-eo"
+            description: "  office productivity suite -- Esperanto language package"
+            packages:
+               - libreoffice-l10n-eo
+          - name: "  libreoffice-l10n-es"
+            description: "  office productivity suite -- Spanish language package"
+            packages:
+               - libreoffice-l10n-es
+          - name: "  libreoffice-l10n-et"
+            description: "  office productivity suite -- Estonian language package"
+            packages:
+               - libreoffice-l10n-et
+          - name: "  libreoffice-l10n-eu"
+            description: "  office productivity suite -- Basque language package"
+            packages:
+               - libreoffice-l10n-eu
+          - name: "  libreoffice-l10n-fa"
+            description: "  office productivity suite -- Farsi language package"
+            packages:
+               - libreoffice-l10n-fa
+          - name: "  libreoffice-l10n-fi"
+            description: "  office productivity suite -- Finnish language package"
+            packages:
+               - libreoffice-l10n-fi
+          - name: "  libreoffice-l10n-fr"
+            description: "  office productivity suite -- French language package"
+            packages:
+               - libreoffice-l10n-fr
+          - name: "  libreoffice-l10n-ga"
+            description: "  office productivity suite -- Gaelic language package"
+            packages:
+               - libreoffice-l10n-ga
+          - name: "  libreoffice-l10n-gd"
+            description: "  office productivity suite -- Scottish_gaelic language package"
+            packages:
+               - libreoffice-l10n-gd
+          - name: "  libreoffice-l10n-gl"
+            description: "  office productivity suite -- Galician language package"
+            packages:
+               - libreoffice-l10n-gl
+          - name: "  libreoffice-l10n-gu"
+            description: "  office productivity suite -- Gujarati language package"
+            packages:
+               - libreoffice-l10n-gu
+          - name: "  libreoffice-l10n-gug"
+            description: "  office productivity suite -- Guarani language package"
+            packages:
+               - libreoffice-l10n-gug
+          - name: "  libreoffice-l10n-he"
+            description: "  office productivity suite -- Hebrew language package"
+            packages:
+               - libreoffice-l10n-he
+          - name: "  libreoffice-l10n-hi"
+            description: "  office productivity suite -- Hindi language package"
+            packages:
+               - libreoffice-l10n-hi
+          - name: "  libreoffice-l10n-hr"
+            description: "  office productivity suite -- Croatian language package"
+            packages:
+               - libreoffice-l10n-hr
+          - name: "  libreoffice-l10n-hu"
+            description: "  office productivity suite -- Hungarian language package"
+            packages:
+               - libreoffice-l10n-hu
+          - name: "  libreoffice-l10n-id"
+            description: "  office productivity suite -- Indonesian language package"
+            packages:
+               - libreoffice-l10n-id
+          - name: "  libreoffice-l10n-in"
+            description: "  office productivity suite -- Indic language packages"
+            packages:
+               - libreoffice-l10n-in
+          - name: "  libreoffice-l10n-is"
+            description: "  office productivity suite -- Icelandic language package"
+            packages:
+               - libreoffice-l10n-is
+          - name: "  libreoffice-l10n-it"
+            description: "  office productivity suite -- Italian language package"
+            packages:
+               - libreoffice-l10n-it
+          - name: "  libreoffice-l10n-ja"
+            description: "  office productivity suite -- Japanese language package"
+            packages:
+               - libreoffice-l10n-ja
+          - name: "  libreoffice-l10n-ka"
+            description: "  office productivity suite -- Georgian language package"
+            packages:
+               - libreoffice-l10n-ka
+          - name: "  libreoffice-l10n-kk"
+            description: "  office productivity suite -- Kazakh language package"
+            packages:
+               - libreoffice-l10n-kk
+          - name: "  libreoffice-l10n-km"
+            description: "  office productivity suite -- Khmer language package"
+            packages:
+               - libreoffice-l10n-km
+          - name: "  libreoffice-l10n-kmr"
+            description: "  office productivity suite -- Kurmanji language package"
+            packages:
+               - libreoffice-l10n-kmr
+          - name: "  libreoffice-l10n-kn"
+            description: "  office productivity suite -- Kannada language package"
+            packages:
+               - libreoffice-l10n-kn
+          - name: "  libreoffice-l10n-ko"
+            description: "  office productivity suite -- Korean language package"
+            packages:
+               - libreoffice-l10n-ko
+          - name: "  libreoffice-l10n-lt"
+            description: "  office productivity suite -- Lithuanian language package"
+            packages:
+               - libreoffice-l10n-lt
+          - name: "  libreoffice-l10n-lv"
+            description: "  office productivity suite -- Latvian language package"
+            packages:
+               - libreoffice-l10n-lv
+          - name: "  libreoffice-l10n-mk"
+            description: "  office productivity suite -- Macedonian language package"
+            packages:
+               - libreoffice-l10n-mk
+          - name: "  libreoffice-l10n-mn"
+            description: "  office productivity suite -- Mongolian language package"
+            packages:
+               - libreoffice-l10n-mn
+          - name: "  libreoffice-l10n-mr"
+            description: "  office productivity suite -- Marathi language package"
+            packages:
+               - libreoffice-l10n-mr
+          - name: "  libreoffice-l10n-nb"
+            description: "  office productivity suite -- Norwegian_bokmal language package"
+            packages:
+               - libreoffice-l10n-nb
+          - name: "  libreoffice-l10n-ne"
+            description: "  office productivity suite -- Nepalese language package"
+            packages:
+               - libreoffice-l10n-ne
+          - name: "  libreoffice-l10n-nl"
+            description: "  office productivity suite -- Dutch language package"
+            packages:
+               - libreoffice-l10n-nl
+          - name: "  libreoffice-l10n-nn"
+            description: "  office productivity suite -- Norwegian_nynorsk language package"
+            packages:
+               - libreoffice-l10n-nn
+          - name: "  libreoffice-l10n-nr"
+            description: "  office productivity suite -- Ndebele language package"
+            packages:
+               - libreoffice-l10n-nr
+          - name: "  libreoffice-l10n-nso"
+            description: "  office productivity suite -- Northern_sotho language package"
+            packages:
+               - libreoffice-l10n-nso
+          - name: "  libreoffice-l10n-oc"
+            description: "  office productivity suite -- Occitan language package"
+            packages:
+               - libreoffice-l10n-oc
+          - name: "  libreoffice-l10n-om"
+            description: "  office productivity suite -- Oromo language package"
+            packages:
+               - libreoffice-l10n-om
+          - name: "  libreoffice-l10n-or"
+            description: "  office productivity suite -- Odia language package"
+            packages:
+               - libreoffice-l10n-or
+          - name: "  libreoffice-l10n-pa-in"
+            description: "  office productivity suite -- Punjabi language package"
+            packages:
+               - libreoffice-l10n-pa-in
+          - name: "  libreoffice-l10n-pl"
+            description: "  office productivity suite -- Polish language package"
+            packages:
+               - libreoffice-l10n-pl
+          - name: "  libreoffice-l10n-pt"
+            description: "  office productivity suite -- Portuguese language package"
+            packages:
+               - libreoffice-l10n-pt
+          - name: "  libreoffice-l10n-pt-br"
+            description: "  office productivity suite -- Portuguese_brazilian language package"
+            packages:
+               - libreoffice-l10n-pt-br
+          - name: "  libreoffice-l10n-ro"
+            description: "  office productivity suite -- Romanian language package"
+            packages:
+               - libreoffice-l10n-ro
+          - name: "  libreoffice-l10n-ru"
+            description: "  office productivity suite -- Russian language package"
+            packages:
+               - libreoffice-l10n-ru
+          - name: "  libreoffice-l10n-rw"
+            description: "  office productivity suite -- Kinarwanda language package"
+            packages:
+               - libreoffice-l10n-rw
+          - name: "  libreoffice-l10n-si"
+            description: "  office productivity suite -- Sinhala language package"
+            packages:
+               - libreoffice-l10n-si
+          - name: "  libreoffice-l10n-sk"
+            description: "  office productivity suite -- Slovak language package"
+            packages:
+               - libreoffice-l10n-sk
+          - name: "  libreoffice-l10n-sl"
+            description: "  office productivity suite -- Slovenian language package"
+            packages:
+               - libreoffice-l10n-sl
+          - name: "  libreoffice-l10n-sr"
+            description: "  office productivity suite -- Serbian language package"
+            packages:
+               - libreoffice-l10n-sr
+          - name: "  libreoffice-l10n-ss"
+            description: "  office productivity suite -- Swazi language package"
+            packages:
+               - libreoffice-l10n-ss
+          - name: "  libreoffice-l10n-st"
+            description: "  office productivity suite -- Southern_sotho language package"
+            packages:
+               - libreoffice-l10n-st
+          - name: "  libreoffice-l10n-sv"
+            description: "  office productivity suite -- Swedish language package"
+            packages:
+               - libreoffice-l10n-sv
+          - name: "  libreoffice-l10n-szl"
+            description: "  office productivity suite -- Upper_silesian language package"
+            packages:
+               - libreoffice-l10n-szl
+          - name: "  libreoffice-l10n-ta"
+            description: "  office productivity suite -- Tamil language package"
+            packages:
+               - libreoffice-l10n-ta
+          - name: "  libreoffice-l10n-te"
+            description: "  office productivity suite -- Telugu language package"
+            packages:
+               - libreoffice-l10n-te
+          - name: "  libreoffice-l10n-tg"
+            description: "  office productivity suite -- Tajik language package"
+            packages:
+               - libreoffice-l10n-tg
+          - name: "  libreoffice-l10n-th"
+            description: "  office productivity suite -- Thai language package"
+            packages:
+               - libreoffice-l10n-th
+          - name: "  libreoffice-l10n-tn"
+            description: "  office productivity suite -- Tswana language package"
+            packages:
+               - libreoffice-l10n-tn
+          - name: "  libreoffice-l10n-tr"
+            description: "  office productivity suite -- Turkish language package"
+            packages:
+               - libreoffice-l10n-tr
+          - name: "  libreoffice-l10n-ts"
+            description: "  office productivity suite -- Tsonga language package"
+            packages:
+               - libreoffice-l10n-ts
+          - name: "  libreoffice-l10n-ug"
+            description: "  office productivity suite -- Uighur language package"
+            packages:
+               - libreoffice-l10n-ug
+          - name: "  libreoffice-l10n-uk"
+            description: "  office productivity suite -- Ukrainian language package"
+            packages:
+               - libreoffice-l10n-uk
+          - name: "  libreoffice-l10n-uz"
+            description: "  office productivity suite -- Uzbek language package"
+            packages:
+               - libreoffice-l10n-uz
+          - name: "  libreoffice-l10n-ve"
+            description: "  office productivity suite -- Venda language package"
+            packages:
+               - libreoffice-l10n-ve
+          - name: "  libreoffice-l10n-vi"
+            description: "  office productivity suite -- Vietnamese language package"
+            packages:
+               - libreoffice-l10n-vi
+          - name: "  libreoffice-l10n-xh"
+            description: "  office productivity suite -- Xhosa language package"
+            packages:
+               - libreoffice-l10n-xh
+          - name: "  libreoffice-l10n-za"
+            description: "  office productivity suite -- South African language packages"
+            packages:
+               - libreoffice-l10n-za
+          - name: "  libreoffice-l10n-zh-cn"
+            description: "  office productivity suite -- Chinese_simplified language package"
+            packages:
+               - libreoffice-l10n-zh-cn
+          - name: "  libreoffice-l10n-zh-tw"
+            description: "  office productivity suite -- Chinese_traditional language package"
+            packages:
+               - libreoffice-l10n-zh-tw
+          - name: "  libreoffice-l10n-zu"
+            description: "  office productivity suite -- Zulu language package"
+            packages:
+               - libreoffice-l10n-zu
+     - name: "LibreOffice - Add-Ons"
+       description: "Individual packages of apps and utilities for the LibreOffice Suite"
+       subgroups:
+          - name: "  hunspell"
+            description: "  spell checker and morphological analyzer (program)"
+            packages:
+               - hunspell
+          - name: Hunspell Dictionaries 
+            description: "Spell checking and Dictionaries for various languages"
+            subgroups:
+               - name: "  hunspell-af"
+                 description: "  Afrikaans dictionary for hunspell"
+                 packages:
+                    - hunspell-af
+               - name: "  hunspell-an"
+                 description: "  Aragonese dictionary for hunspell"
+                 packages:
+                    - hunspell-an
+               - name: "  hunspell-ar"
+                 description: "  Arabic dictionary for hunspell"
+                 packages:
+                    - hunspell-ar
+               - name: "  hunspell-be"
+                 description: "  Belarusian dictionary for hunspell and academic orthography"
+                 packages:
+                    - hunspell-be
+               - name: "  hunspell-bg"
+                 description: "  Bulgarian dictionary for hunspell"
+                 packages:
+                    - hunspell-bg
+               - name: "  hunspell-bn"
+                 description: "  Bengali dictionary for hunspell"
+                 packages:
+                    - hunspell-bn
+               - name: "  hunspell-bo"
+                 description: "  Classical Tibetan language dictionary for hunspell"
+                 packages:
+                    - hunspell-bo
+               - name: "  hunspell-br"
+                 description: "  Breton language dictionary for hunspell"
+                 packages:
+                    - hunspell-br
+               - name: "  hunspell-bs"
+                 description: "  Bosnian dictionary for hunspell"
+                 packages:
+                    - hunspell-bs
+               - name: "  hunspell-ca"
+                 description: "  Catalan dictionaries for hunspell"
+                 packages:
+                    - hunspell-ca
+               - name: "  hunspell-cs"
+                 description: "  Czech dictionary for hunspell"
+                 packages:
+                    - hunspell-cs
+               - name: "  hunspell-da"
+                 description: "  Danish dictionary for hunspell"
+                 packages:
+                    - hunspell-da
+               - name: "  hunspell-de-at"
+                 description: "  Austrian (German) dictionary for hunspell"
+                 packages:
+                    - hunspell-de-at
+               - name: "  hunspell-de-at-frami"
+                 description: "  German (Austria) dictionary for hunspell (frami version)"
+                 packages:
+                    - hunspell-de-at-frami
+               - name: "  hunspell-de-ch"
+                 description: "  Swiss (German) dictionary for hunspell"
+                 packages:
+                    - hunspell-de-ch
+               - name: "  hunspell-de-ch-frami"
+                 description: "  German (Switzerland) dictionary for hunspell (frami version)"
+                 packages:
+                    - hunspell-de-ch-frami
+               - name: "  hunspell-de-de"
+                 description: "  German dictionary for hunspell"
+                 packages:
+                    - hunspell-de-de
+               - name: "  hunspell-de-de-frami"
+                 description: "  German dictionary for hunspell (frami version)"
+                 packages:
+                    - hunspell-de-de-frami
+               - name: "  hunspell-de-med"
+                 description: "  German medical dictionary for hunspell"
+                 packages:
+                    - hunspell-de-med
+               - name: "  hunspell-dz"
+                 description: "  Dzongkha language dictionary for hunspell"
+                 packages:
+                    - hunspell-dz
+               - name: "  hunspell-el"
+                 description: "  Modern Greek dictionary for hunspell"
+                 packages:
+                    - hunspell-el
+               - name: "  hunspell-en-au"
+                 description: "  English (Australia) dictionary for hunspell"
+                 packages:
+                    - hunspell-en-au
+               - name: "  hunspell-en-ca"
+                 description: "  English (Canada) dictionary for hunspell"
+                 packages:
+                    - hunspell-en-ca
+               - name: "  hunspell-en-gb"
+                 description: "  English (GB) dictionary for hunspell"
+                 packages:
+                    - hunspell-en-gb
+               - name: "  hunspell-en-med"
+                 description: "  English medical dictionary for hunspell"
+                 packages:
+                    - hunspell-en-med
+               - name: "  hunspell-en-us"
+                 description: "  English_american dictionary for hunspell"
+                 packages:
+                    - hunspell-en-us
+               - name: "  hunspell-en-za"
+                 description: "  English (South Africa) dictionary for hunspell"
+                 packages:
+                    - hunspell-en-za
+               - name: "  hunspell-es"
+                 description: "  Spanish dictionary for hunspell"
+                 packages:
+                    - hunspell-es
+               - name: "  hunspell-eu"
+                 description: "  Basque (Euskera) dictionary for hunspell"
+                 packages:
+                    - hunspell-eu
+               - name: "  hunspell-fr"
+                 description: "  French dictionary for hunspell (dependency package)"
+                 packages:
+                    - hunspell-fr
+               - name: "  hunspell-fr-classical"
+                 description: "  French dictionary for hunspell (classical version)"
+                 packages:
+                    - hunspell-fr-classical
+               - name: "  hunspell-fr-comprehensive"
+                 description: "  French dictionary for hunspell (comprehensive version)"
+                 packages:
+                    - hunspell-fr-comprehensive
+               - name: "  hunspell-fr-revised"
+                 description: "  French dictionary for hunspell (revised version)"
+                 packages:
+                    - hunspell-fr-revised
+               - name: "  hunspell-gd"
+                 description: "  Scottish Gaelic dictionary for hunspell"
+                 packages:
+                    - hunspell-gd
+               - name: "  hunspell-gl"
+                 description: "  Galician dictionary for hunspell"
+                 packages:
+                    - hunspell-gl
+               - name: "  hunspell-gl-es"
+                 description: "  Galician dictionary for hunspell - dummy transitional package"
+                 packages:
+                    - hunspell-gl-es
+               - name: "  hunspell-gu"
+                 description: "  Gujarati dictionary for hunspell"
+                 packages:
+                    - hunspell-gu
+               - name: "  hunspell-gug"
+                 description: "  Guarani dictionary for hunspell"
+                 packages:
+                    - hunspell-gug
+               - name: "  hunspell-he"
+                 description: "  Hebrew dictionary for hunspell"
+                 packages:
+                    - hunspell-he
+               - name: "  hunspell-hi"
+                 description: "  Hindi dictionary for hunspell"
+                 packages:
+                    - hunspell-hi
+               - name: "  hunspell-hr"
+                 description: "  Croatian dictionary for hunspell"
+                 packages:
+                    - hunspell-hr
+               - name: "  hunspell-hu"
+                 description: "  Hungarian dictionary for hunspell"
+                 packages:
+                    - hunspell-hu
+               - name: "  hunspell-id"
+                 description: "  Indonesian dictionary for hunspell"
+                 packages:
+                    - hunspell-id
+               - name: "  hunspell-is"
+                 description: "  Icelandic dictionary for hunspell"
+                 packages:
+                    - hunspell-is
+               - name: "  hunspell-it"
+                 description: "  Italian dictionary for hunspell"
+                 packages:
+                    - hunspell-it
+               - name: "  hunspell-kk"
+                 description: "  Kazakh dictionary for hunspell"
+                 packages:
+                    - hunspell-kk
+               - name: "  hunspell-kmr"
+                 description: "  Kurmanji dictionary for hunspell"
+                 packages:
+                    - hunspell-kmr
+               - name: "  hunspell-ko"
+                 description: "  Korean dictionary for hunspell"
+                 packages:
+                    - hunspell-ko
+               - name: "  hunspell-lo"
+                 description: "  Laotian dictionary for hunspell"
+                 packages:
+                    - hunspell-lo
+               - name: "  hunspell-lt"
+                 description: "  Lithuanian dictionary for hunspell"
+                 packages:
+                    - hunspell-lt
+               - name: "  hunspell-lv"
+                 description: "  Latvian dictionary for hunspell"
+                 packages:
+                    - hunspell-lv
+               - name: "  hunspell-ml"
+                 description: "  Malayalam dictionary for hunspell"
+                 packages:
+                    - hunspell-ml
+               - name: "  hunspell-ne"
+                 description: "  Nepalese dictionary for hunspell"
+                 packages:
+                    - hunspell-ne
+               - name: "  hunspell-nl"
+                 description: "  Dutch dictionary for Hunspell"
+                 packages:
+                    - hunspell-nl
+               - name: "  hunspell-no"
+                 description: "  Norwegian dictionary for hunspell"
+                 packages:
+                    - hunspell-no
+               - name: "  hunspell-oc"
+                 description: "  Occitan dictionary for hunspell"
+                 packages:
+                    - hunspell-oc
+               - name: "  hunspell-pl"
+                 description: "  Polish dictionary for hunspell"
+                 packages:
+                    - hunspell-pl
+               - name: "  hunspell-pt-br"
+                 description: "  Brazilian Portuguese dictionary for hunspell"
+                 packages:
+                    - hunspell-pt-br
+               - name: "  hunspell-pt-pt"
+                 description: "  Portuguese dictionary for hunspell"
+                 packages:
+                    - hunspell-pt-pt
+               - name: "  hunspell-ro"
+                 description: "  Romanian dictionary for hunspell"
+                 packages:
+                    - hunspell-ro
+               - name: "  hunspell-ru"
+                 description: "  Russian dictionary for hunspell"
+                 packages:
+                    - hunspell-ru
+               - name: "  hunspell-si"
+                 description: "  Sinhala dictionary for hunspell"
+                 packages:
+                    - hunspell-si
+               - name: "  hunspell-sk"
+                 description: "  Slovak dictionary for hunspell"
+                 packages:
+                    - hunspell-sk
+               - name: "  hunspell-sl"
+                 description: "  Slovene dictionary for hunspell"
+                 packages:
+                    - hunspell-sl
+               - name: "  hunspell-sr"
+                 description: "  Serbian dictionary for hunspell"
+                 packages:
+                    - hunspell-sr
+               - name: "  hunspell-sv"
+                 description: "  Swedish dictionary for hunspell"
+                 packages:
+                    - hunspell-sv
+               - name: "  hunspell-sv-se"
+                 description: "  Swedish dictionary for hunspell - dummy transitional package"
+                 packages:
+                    - hunspell-sv-se
+               - name: "  hunspell-sw"
+                 description: "  Swahili dictionary for hunspell"
+                 packages:
+                    - hunspell-sw
+               - name: "  hunspell-te"
+                 description: "  Telugu dictionary for hunspell"
+                 packages:
+                    - hunspell-te
+               - name: "  hunspell-th"
+                 description: "  Thai dictionary for hunspell"
+                 packages:
+                    - hunspell-th
+               - name: "  hunspell-tools"
+                 description: "  tools for hunspell"
+                 packages:
+                    - hunspell-tools
+               - name: "  hunspell-tr"
+                 description: "  Turkish dictionary for hunspell"
+                 packages:
+                    - hunspell-tr
+               - name: "  hunspell-uk"
+                 description: "  Ukrainian dictionary for hunspell"
+                 packages:
+                    - hunspell-uk
+               - name: "  hunspell-uz"
+                 description: "  Uzbek dictionary for Hunspell"
+                 packages:
+                    - hunspell-uz
+               - name: "  hunspell-vi"
+                 description: "  Vietnamese dictionary for hunspell"
+                 packages:
+                    - hunspell-vi
+          - name: "  bluez"
+            description: "  Bluetooth tools and daemons"
+            packages:
+               - bluez
+          - name: "  cups"
+            description: "  Common UNIX Printing System(tm) - PPD/driver support, web interface"
+            packages:
+               - cups
+          - name: "  cups-bsd"
+            description: "  Common UNIX Printing System(tm) - BSD commands"
+            packages:
+               - cups-bsd
+          - name: "  ghostscript"
+            description: "  interpreter for the PostScript language and for PDF"
+            packages:
+               - ghostscript
+          - name: "  libpaper-utils"
+            description: "  library for handling paper characteristics (utilities)"
+            packages:
+               - libpaper-utils
+          - name: "  libsane"
+            description: "  API library for scanners [transitional package]"
+            packages:
+               - libsane
+          - name: "  libxrender1"
+            description: "  X Rendering Extension client library"
+            packages:
+               - libxrender1
+          - name: "  libgl1"
+            description: "  Vendor neutral GL dispatch library -- legacy GL support"
+            packages:
+               - libgl1
+          - name: "  openclipart-libreoffice"
+            description: "  clip art for OpenOffice.org/LibreOffice gallery"
+            packages:
+               - openclipart-libreoffice
+          - name: "  pstoedit"
+            description: "  PostScript and PDF files to editable vector graphics converter"
+            packages:
+               - pstoedit
+          - name: "  simple-scan"
+            description: "  Simple Scanning Utility"
+            packages:
+               - simple-scan
+          - name: "  unixodbc"
+            description: "  Basic ODBC tools"
+            packages:
+               - unixodbc
+- name: "Printing Support"
+  description: "Add Printer Support"
+  critical: false
+  selected: false
+  expanded: false
+  subgroups:
+     - name: "  cups"
+       description: "  Common UNIX Printing System(tm) - PPD/driver support, web interface"
+       packages:
+          - cups
+     - name: "  cups-bsd"
+       description: "  Common UNIX Printing System(tm) - BSD commands"
+       packages:
+          - cups-bsd
+     - name: "Foomatic Print Drivers"
+       description: "Foomatic based Printer Drivers"
+       subgroups:
+          - name: "  foomatic-db"
+            description: "  OpenPrinting printer support - database"
+            packages:
+               - foomatic-db
+          - name: "  foomatic-db-engine"
+            description: "  OpenPrinting printer support - programs"
+            packages:
+               - foomatic-db-engine
+          - name: "  foomatic-filters"
+            description: "  OpenPrinting printer support - filters"
+            packages:
+               - foomatic-filters
+          - name: "  foomatic-filters-beh"
+            description: "  Openprinting Backend error handler"
+            packages:
+               - foomatic-filters-beh
+          - name: "  foomatic-db-compressed-ppds"
+            description: "  OpenPrinting printer support - Compressed PPDs derived from the database"
+            packages:
+               - foomatic-db-compressed-ppds
+          - name: "  openprinting-ppds"
+            description: "  OpenPrinting printer support - PostScript PPD files"
+            packages:
+               - openprinting-ppds
+     - name: "Brother Printer"
+       description: "Brother based Printer Drivers"
+       subgroups:
+          - name: "  printer-driver-brlaser"
+            description: "  printer driver for (some) Brother laser printers"
+            packages:
+               - printer-driver-brlaser
+          - name: "  printer-driver-ptouch"
+            description: "  printer driver Brother P-touch label printers"
+            packages:
+               - printer-driver-ptouch
+     - name: "Canon LBP laser printers"
+       description: "Canon LBP laser printers Drivers"
+       subgroups:
+          - name: "  printer-driver-cjet"
+            description: "  printer driver for Canon LBP laser printers"
+            packages:
+               - printer-driver-cjet
+     - name: "Epson Utilities"
+       description: "Epson based Printer Drivers"
+       subgroups:
+          - name: "  escputil"
+            description: "  maintenance utility for Epson Stylus printers"
+            packages:
+               - escputil
+          - name: "  ink"
+            description: "  tool for checking the ink level of your local printer"
+            packages:
+               - ink
+          - name: "  mtink"
+            description: "  Status monitor tool for Epson inkjet printers"
+            packages:
+               - mtink
+          - name: "  printer-driver-escpr"
+            description: "  printer driver for Epson Inkjet that use ESC/P-R"
+            packages:
+               - printer-driver-escpr
+          - name: "  sane-airscan"
+            description: "  SANE backend for AirScan (eSCL) and WSD document scanner"
+            packages:
+               - sane-airscan
+     - name: "Fuji Xerox printers"
+       description: "Fuji Xerox printers Drivers"
+       subgroups:
+          - name: "  printer-driver-fujixerox"
+            description: "  printer driver for Fuji Xerox printers"
+            packages:
+               - printer-driver-fujixerox
+     - name: "HP Printer Support"
+       description: "Packages and drivers for HP Printers and Printer/Scanner Combos"
+       subgroups:
+          - name: "HP Color LaserJet 35xx/36xx"
+            description: "HP Color LaserJet 35xx/36xx Drivers"
+            subgroups:
+               - name: "  printer-driver-pxljr"
+                 description: "  printer driver for HP Color LaserJet 35xx/36xx"
+                 packages:
+                    - printer-driver-pxljr
+          - name: "HP-GDI printers"
+            description: "HP-GDI printers Drivers"
+            subgroups:
+               - name: "  printer-driver-pnm2ppa"
+                 description: "  printer driver for HP-GDI printers"
+                 packages:
+                    - printer-driver-pnm2ppa
+          - name: "HP Printer/Scanner"
+            description: "Install HP Printer/Scanner"
+            subgroups:
+               - name: "  hplip"
+                 description: "  HP Linux Printing and Imaging System (HPLIP)"
+                 packages:
+                    - hplip
+               - name: "  hplip-gui"
+                 description: "  HP Linux Printing and Imaging - GUI utilities (Qt-based)"
+                 packages:
+                    - hplip-gui
+               - name: "  xsane"
+                 description: "  featureful graphical frontend for SANE (Scanner Access Now Easy)"
+                 packages:
+                    - xsane
+     - name: "Kodak ESP AiO Color"
+       description: " Kodak ESP AiO color inkjet Series Drivers "
+       subgroups:
+          - name: "  printer-driver-c2esp"
+            description: "  printer driver for Kodak ESP AiO color inkjet Series"
+            packages:
+               - printer-driver-c2esp
+     - name: "Konica/Minolta PagePro"
+       description: "Konica/Minolta PagePro 1[234]xxW Drivers"
+       subgroups:
+          - name: "  printer-driver-min12xxw"
+            description: "  printer driver for KonicaMinolta PagePro 1[234]xxW"
+            packages:
+               - printer-driver-min12xxw
+     - name: "Lexmark 2050 Color Jetprinter "
+       description: "Lexmark 2050 Color Jetprinter Drivers"
+       subgroups:
+          - name: "  printer-driver-c2050"
+            description: "  printer driver for Lexmark 2050 Color Jetprinter"
+            packages:
+               - printer-driver-c2050
+     - name: "Minolta magicolor 2300W/2400W color laser"
+       description: "Minolta magicolor 2300W/2400W color laser Drivers"
+       subgroups:
+          - name: "  printer-driver-m2300w"
+            description: "  printer driver for Minolta magicolor 2300W/2400W color laser printers"
+            packages:
+               - printer-driver-m2300w
+     - name: "OKI Data printers"
+       description: "OKI Data printers Drivers"
+       subgroups:
+          - name: "  printer-driver-oki"
+            description: "  printer driver for OKI Data printers"
+            packages:
+               - printer-driver-oki
+     - name: "Ricoh Aficio SP 1000s/SP 1100s"
+       description: "Ricoh Aficio SP 1000s/SP 1100s Drivers"
+       subgroups:
+          - name: "  printer-driver-sag-gdi"
+            description: "  printer driver for Ricoh Aficio SP 1000s/SP 1100s"
+            packages:
+               - printer-driver-sag-gdi
+     - name: "Samsung and Xerox SPL2 and SPLc laser printers"
+       description: "Samsung and Xerox SPL2 and SPLc laser printers Drivers"
+       subgroups:
+          - name: "  printer-driver-splix"
+            description: "  Driver for Samsung and Xerox SPL2 and SPLc laser printers"
+            packages:
+               - printer-driver-splix
+     - name: "ZjStream-based printers"
+       description: "ZjStream-based printers"
+       subgroups:
+          - name: "  printer-driver-foo2zjs"
+            description: "  printer driver for ZjStream-based printers"
+            packages:
+               - printer-driver-foo2zjs
+     - name: "  simple-scan"
+       description: "  Simple Scanning Utility"
+       packages:
+          - simple-scan
+- name: "A/V Players & Tools"
+  description: "Wide Selection of A/V Players. Editors and Codecs"
+  critical: false
+  selected: false
+  expanded: false
+  subgroups:
+     - name: "A/V Codecs"
+       description: "Selection of Audio and Video Codecs"
+       subgroups:
+          - name: "  faac"
+            description: "  AAC audio encoder."
+            packages:
+               - faac
+          - name: "  faad"
+            description: "  freeware Advanced Audio Decoder player"
+            packages:
+               - faad
+          - name: "  ffmpeg"
+            description: "  audio/video encoder, streaming server & audio/video file converter"
+            packages:
+               - ffmpeg
+          - name: "  gstreamer1.0-plugins-good"
+            description: "  GStreamer plugins from the good set"
+            packages:
+               - gstreamer1.0-plugins-good
+          - name: "  gstreamer1.0-plugins-ugly"
+            description: "  GStreamer plugins from the ugly set"
+            packages:
+               - gstreamer1.0-plugins-ugly
+          - name: "  gstreamer1.0-plugins-bad"
+            description: "  GStreamer plugins from the bad set"
+            packages:
+               - gstreamer1.0-plugins-bad
+          - name: "  gstreamer1.0-pulseaudio"
+            description: "  GStreamer plugin for PulseAudio"
+            packages:
+               - gstreamer1.0-pulseaudio
+          - name: "  sox"
+            description: "  Swiss army knife of sound processing"
+            packages:
+               - sox
+          - name: "  lame"
+            description: "  Open source MP3 encoder"
+            packages:
+               - lame
+          - name: "  twolame"
+            description: "  MPEG Audio Layer 2 encoder (command line frontend)"
+            packages:
+               - twolame
+          - name: "  w64codecs"
+            description: "  win64 binary codecs"
+            packages:
+               - w64codecs
+     - name: "Audio Players"
+       description: "Selection of Audio Players"
+       subgroups:
+          - name: "  audacious"
+            description: "  Small and fast audio player which supports lots of formats"
+            packages:
+               - audacious
+          - name: "  audacious-plugins"
+            description: "  Base plugins for audacious."
+            packages:
+               - audacious-plugins
+          - name: "  clementine"
+            description: "  modern music player and library organizer"
+            packages:
+               - clementine
+          - name: "  elisa"
+            description: "  Simple music player with a focus on Plasma desktop integration and privacy"
+            packages:
+               - elisa
+          - name: "  lollypop"
+            description: "  modern music player"
+            packages:
+               - lollypop
+          - name: "  sayonara"
+            description: "  Small, clear and fast audio player"
+            packages:
+               - sayonara
+          - name: "  vlc"
+            description: "  multimedia player and streamer"
+            packages:
+               - vlc
+     - name: "Audio Editors"
+       description: "Selection of Audio Editors"
+       subgroups:
+          - name: "  ardour"
+            description: "  the digital audio workstation"
+            packages:
+               - ardour
+          - name: "  audacity"
+            description: "  fast, cross-platform audio editor"
+            packages:
+               - audacity
+          - name: "  kwave"
+            description: "  sound editor for KDE"
+            packages:
+               - kwave
+          - name: "  lmms"
+            description: "  Linux Multimedia Studio"
+            packages:
+               - lmms
+     - name: "Audio Converters"
+       description: "Few good Audio Converters"
+       subgroups:
+          - name: "  lame"
+            description: "  Open source MP3 encoder"
+            packages:
+               - lame
+          - name: "  soundconverter"
+            description: "  GNOME application to convert audio files into other formats"
+            packages:
+               - soundconverter
+     - name: "Other Audio Tools"
+       description: "Various Other Audio Tools"
+       subgroups:
+          - name: "  easytag"
+            description: "  Viewing, editing and writing ID3 tags."
+            packages:
+               - easytag
+          - name: "  picard"
+            description: "  Next-Generation MusicBrainz audio files tagger"
+            packages:
+               - picard
+          - name: "  rhythmbox"
+            description: "  music player and organizer for GNOME"
+            packages:
+               - rhythmbox
+          - name: "  tangerine"
+            description: "  music server using DAAP"
+            packages:
+               - tangerine
+     - name: "Video Players"
+       description: "Selection of Video Players"
+       subgroups:
+          - name: "  celluloid"
+            description: "  simple GTK+ frontend for mpv"
+            packages:
+               - celluloid
+          - name: "  dragonplayer"
+            description: "  simple video player"
+            packages:
+               - dragonplayer
+          - name: "  haruna"
+            description: "  Video player built with Qt/QML on top of libmpv"
+            packages:
+               - haruna
+          - name: "  mplayer-gui"
+            description: "  movie player for Unix-like systems (GUI variant)"
+            packages:
+               - mplayer-gui
+          - name: "  mpv"
+            description: "  Free and open-source general-purpose video player"
+            packages:
+               - mpv
+          - name: "  parole"
+            description: "  media player based on GStreamer framework"
+            packages:
+               - parole
+          - name: "  smplayer"
+            description: "  Complete front-end for MPlayer and mpv"
+            packages:
+               - smplayer
+          - name: "  vlc"
+            description: "  multimedia player and streamer"
+            packages:
+               - vlc
+          - name: "  xine-ui"
+            description: "  Xine video player, user interface"
+            packages:
+               - xine-ui
+     - name: "Video Editors"
+       description: "Selection of Video Capture & Editors"
+       subgroups:
+          - name: "  kazam"
+            description: "  screencast and screenshot application created with design in mind"
+            packages:
+               - kazam
+          - name: "  kdenlive"
+            description: "  non-linear video editor"
+            packages:
+               - kdenlive
+          - name: "  obs-studio"
+            description: "  recorder and streamer for live video content"
+            packages:
+               - obs-studio
+          - name: "  openshot-qt"
+            description: "  Create and edit videos and movies."
+            packages:
+               - openshot-qt
+          - name: "  pitivi"
+            description: "  non-linear audio/video editor using GStreamer"
+            packages:
+               - pitivi
+          - name: "  shotcut"
+            description: "  Video editor"
+            packages:
+               - shotcut
+          - name: "  simplescreenrecorder"
+            description: "  Feature-rich screen recorder for X11 and OpenGL"
+            packages:
+               - simplescreenrecorder
+          - name: "  vokoscreen-ng"
+            description: "  easy to use screencast creator"
+            packages:
+               - vokoscreen-ng
+     - name: "Video Converters"
+       description: "Selection of Video Converters"
+       subgroups:
+          - name: "  ffmpeg"
+            description: "  audio/video encoder, streaming server & audio/video file converter"
+            packages:
+               - ffmpeg
+          - name: "  mkvtoolnix"
+            description: "  Set of command-line tools to work with Matroska files"
+            packages:
+               - mkvtoolnix
+          - name: "  mkvtoolnix-gui"
+            description: "  Set of tools to work with Matroska files - GUI frontend"
+            packages:
+               - mkvtoolnix-gui
+          - name: "  mystiq"
+            description: "  Powerful FFmpeg GUI front-end based on Qt5 and written in C++"
+            packages:
+               - mystiq
+     - name: "Other Video Tools"
+       description: "Various other Video Tools"
+       subgroups:
+          - name: "  cheese"
+            description: "  tool to take pictures and videos from your webcam"
+            packages:
+               - cheese
+          - name: "  guvcview"
+            description: "  GTK+ base UVC Viewer"
+            packages:
+               - guvcview
+          - name: "  mediainfo-gui"
+            description: "  graphical utility for reading information from audio/video files"
+            packages:
+               - mediainfo-gui
+- name: "Graphics Studio"
+  description: "Image creation and manipulation suites and applications" 
+  critical: false
+  selected: false
+  expanded: false
+  subgroups:
+     - name: "  blender"
+       description: "  Very fast and versatile 3D modeller/renderer"
+       packages:
+          - blender
+     - name: "  darktable"
+       description: "  virtual lighttable and darkroom for photographers"
+       packages:
+          - darktable
+     - name: "  digikam"
+       description: "  digital photo management application for KDE"
+       packages:
+          - digikam
+     - name: "  flameshot"
+       description: "  Powerful yet simple-to-use screenshot software"
+       packages:
+          - flameshot
+     - name: "  gimp"
+       description: "  GNU Image Manipulation Program"
+       packages:
+          - gimp
+     - name: "  krita"
+       description: "  pixel-based image manipulation program"
+       packages:
+          - krita
+     - name: "  imagemagick"
+       description: "  image manipulation programs -- binaries"
+       packages:
+          - imagemagick
+     - name: "  inkscape"
+       description: "  vector-based drawing program"
+       packages:
+          - inkscape
+     - name: "  showfoto"
+       description: "  image viewer/editor for KDE"
+       packages:
+          - showfoto
+- name: "Utilities"
+  description: "Various Useful GUI and CLI/TUI Utilities"
+  critical: false
+  selected: false
+  expanded: false
+  subgroups:
+     - name: "Archive Applications"
+       description: "Selection of Arching Utilities and Extractors"
+       subgroups:
+          - name: "  p7zip-full"
+            description: "  7z and 7za file archivers with high compression ratio"
+            packages:
+               - p7zip-full
+          - name: "  p7zip-rar"
+            description: "  non-free rar module for p7zip"
+            packages:
+               - p7zip-rar
+          - name: "  rar"
+            description: "  Archiver for .rar files"
+            packages:
+               - rar
+          - name: "  unrar"
+            description: "  Unarchiver for .rar files (non-free version)"
+            packages:
+               - unrar
+          - name: "  zip"
+            description: "  Archiver for .zip files"
+            packages:
+               - zip
+          - name: "  unzip"
+            description: "  De-archiver for .zip files"
+            packages:
+               - unzip
+          - name: "  xarchiver"
+            description: "  GTK+ frontend for most used compression formats"
+            packages:
+               - xarchiver
+     - name: "Disk & USB Tools"
+       description: "Drive Manipulation Tools"
+       subgroups:
+          - name: "  brasero"
+            description: "  CD/DVD burning application for GNOME"
+            packages:
+               - brasero
+          - name: "  k3b"
+            description: "  Sophisticated CD/DVD burning application"
+            packages:
+               - k3b
+          - name: "  gnome-disk-utility"
+            description: "  manage and configure disk drives and media"
+            packages:
+               - gnome-disk-utility
+          - name: "  gnome-multi-writer"
+            description: "  Write an ISO file to multiple USB devices at once"
+            packages:
+               - gnome-multi-writer
+          - name: "  gparted"
+            description: "  GNOME partition editor"
+            packages:
+               - gparted
+          - name: "  timeshift"
+            description: "  System restore utility"
+            packages:
+               - timeshift
+     - name: "FingerPrint Driver"
+       description: "FingerPrint Drivers"
+       subgroups:
+          - name: "  fprintd"
+            description: "  D-Bus daemon for fingerprint reader access"
+            packages:
+               - fprintd
+     - name: "Package Managers"
+       description: "Additional Package Managers"
+       subgroups:
+          - name: "  gnome-software"
+            description: "  Software Center for GNOME"
+            packages:
+               - gnome-software
+          - name: "  gnome-software-plugin-flatpak"
+            description: "  Flatpak support for GNOME Software"
+            packages:
+               - gnome-software-plugin-flatpak
+          - name: "  gnome-software-plugin-snap"
+            description: "  Snap support for GNOME Software"
+            packages:
+               - gnome-software-plugin-snap
+     - name: "Password Managers"
+       description: "Securely Store & Manage Passwords"
+       subgroups:
+          - name: "  keepassxc"
+            description: "  Cross Platform Password Manager"
+            packages:
+               - keepassxc
+          - name: "  lastpass-cli"
+            description: "  command line interface to LastPass.com"
+            packages:
+               - lastpass-cli
+     - name: "Resource Monitors"
+       description: "HTOP, BTOP & Others"
+       subgroups:
+          - name: "  btop"
+            description: "  Modern and colorful command line resource monitor that shows usage and stats"
+            packages:
+               - btop
+          - name: "  htop"
+            description: "  interactive processes viewer"
+            packages:
+               - htop
+          - name: "  nvtop"
+            description: "  Interactive NVIDIA GPU process monitor"
+            packages:
+               - nvtop
+     - name: "System Applications"
+       description: "Selection of Useful and sometimes required applications"
+       subgroups:
+          - name: "  apt-config-auto-update"
+            description: "  APT configuration for automatic cache updates"
+            packages:
+               - apt-config-auto-update
+          - name: "  aptitude"
+            description: "  terminal-based package manager"
+            packages:
+               - aptitude
+          - name: "  gnome-firmware"
+            description: "  GTK front end for fwupd"
+            packages:
+               - gnome-firmware
+          - name: "  gnome-packagekit"
+            description: "  Graphical distribution neutral package manager for GNOME"
+            packages:
+               - gnome-packagekit
+          - name: "  gvfs-backends"
+            description: "  userspace virtual filesystem - backends"
+            packages:
+               - gvfs-backends
+          - name: "  lightdm-settings"
+            description: "  LightDM Settings Configuration Tool"
+            packages:
+               - lightdm-settings
+          - name: "  slick-greeter"
+            description: "  Slick-looking LightDM greeter"
+            packages:
+               - slick-greeter
+     - name: "System Utilities"
+       description: "Misc other System Tools"
+       subgroups:
+          - name: "  barrier"
+            description: "  Share mouse, keyboard and clipboard over the network"
+            packages:
+               - barrier
+          - name: "  caffeine"
+            description: "  prevent the desktop becoming idle in full-screen mode"
+            packages:
+               - caffeine
+          - name: "  solaar"
+            description: "  Logitech Unifying Receiver peripherals manager for Linux"
+            packages:
+               - solaar
+     - name: "Terminal Emulators"
+       description: "Extra Terminal Emulators"
+       subgroups:
+          - name: "  cool-retro-term"
+            description: "  terminal emulator which mimics old screens"
+            packages:
+               - cool-retro-term
+          - name: "  gnome-terminal"
+            description: "  GNOME terminal emulator application"
+            packages:
+               - gnome-terminal
+          - name: "  guake"
+            description: "  Drop-down terminal for GNOME Desktop Environment"
+            packages:
+               - guake
+          - name: "  mate-terminal"
+            description: "  MATE terminal emulator application"
+            packages:
+               - mate-terminal
+          - name: "  mlterm"
+            description: "  MultiLingual TERMinal"
+            packages:
+               - mlterm
+          - name: "  terminus"
+            description: "  Drop-down or in-window terminal for X11 and Wayland"
+            packages:
+               - terminus
+          - name: "  terminator"
+            description: "  multiple GNOME terminals in one window"
+            packages:
+               - terminator
+          - name: "  xfce4-terminal"
+            description: "  Xfce terminal emulator"
+            packages:
+               - xfce4-terminal
+- name: "Linux Driver Modules"
+  description: "A shortlist of avalaible useful drivers"
+  critical: false
+  selected: false
+  expanded: false
+  subgroups:
+     - name: "Processor Microcode"
+       description: "Select based on your CPU"
+       subgroups:
+          - name: "  amd64-microcode"
+            description: "  Processor microcode firmware for AMD CPUs"
+            packages:
+               - amd64-microcode
+          - name: "  intel-microcode"
+            description: "  Processor microcode firmware for Intel CPUs"
+            packages:
+               - intel-microcode
+     - name: "Broadcom WiFi"
+       description: "Broadcom WiFi Drivers"
+       subgroups:
+          - name: "  b43-fwcutter"
+            description: "  utility for extracting Broadcom 43xx firmware"
+            packages:
+               - b43-fwcutter
+          - name: "  broadcom-sta-common"
+            description: "  Common files for the Broadcom STA Wireless driver"
+            packages:
+               - broadcom-sta-common
+          - name: "  broadcom-sta-dkms"
+            description: "  dkms source for the Broadcom STA Wireless driver"
+            packages:
+               - broadcom-sta-dkms
+          - name: "  broadcom-sta-source"
+            description: "  Source for the Broadcom STA Wireless driver"
+            packages:
+               - broadcom-sta-source
+          - name: "  firmware-b43-installer"
+            description: "  firmware installer for the b43 driver"
+            packages:
+               - firmware-b43-installer
+          - name: "  firmware-b43legacy-installer"
+            description: "  firmware installer for the b43legacy driver"
+            packages:
+               - firmware-b43legacy-installer
+          - name: "  firmware-bnx2"
+            description: "  Binary firmware for Broadcom NetXtremeII"
+            packages:
+               - firmware-bnx2
+          - name: "  firmware-bnx2x"
+            description: "  Binary firmware for Broadcom NetXtreme II 10Gb"
+            packages:
+               - firmware-bnx2x
+          - name: "  firmware-brcm80211"
+            description: "  Binary firmware for Broadcom/Cypress 802.11 wireless cards"
+            packages:
+               - firmware-brcm80211
+- name: "Nvidia Drivers and Support"
+  description: "Support apps and drivers for Nvidia hardware"
+  critical: false
+  selected: false
+  expanded: false
+  subgroups:
+     - name: "NVidia GPUs"
+       description: "Select Your NVidia GPU Drivers"
+       subgroups:
+          - name: "  nvidia-driver"
+            description: "  NVIDIA metapackage"
+            packages:
+               - nvidia-driver
+          - name: "  nvidia-legacy-390xx-driver"
+            description: "  NVIDIA metapackage (390xx legacy version)"
+            packages:
+               - nvidia-legacy-390xx-driver
+     - name: "NVidia NVENC Suport"
+       description: "Install NVidia NVENC Suport"
+       subgroups:
+          - name: "  libnvidia-encode1"
+            description: "  NVENC Video Encoding runtime library"
+            packages:
+               - libnvidia-encode1
+          - name: "  libnvidia-legacy-390xx-encode1"
+            description: "  NVENC Video Encoding runtime library (390xx legacy version)"
+            packages:
+               - libnvidia-legacy-390xx-encode1
+     - name: "Optimus Manager"
+       description: "Enable Intel/nVidia GPU Switching"
+       subgroups:
+          - name: "  primus"
+            description: "  client-side GPU offloading for NVIDIA Optimus"
+            packages:
+               - primus
+          - name: "  primus-nvidia"
+            description: "  NVIDIA Primus support using the proprietary NVIDIA driver"
+            packages:
+               - primus-nvidia
+          - name: "  bbswitch-dkms"
+            description: "  Interface for toggling the power on NVIDIA Optimus video cards (dkms)"
+            packages:
+               - bbswitch-dkms
+          - name: "  bumblebee"
+            description: "  NVIDIA Optimus support for Linux"
+            packages:
+               - bumblebee
+          - name: "  bumblebee-nvidia"
+            description: "  NVIDIA Optimus support using the proprietary NVIDIA driver"
+            packages:
+               - bumblebee-nvidia
+     - name: "Nvidia Installer Cleanup"
+       description: " * Use of Nvidia-Installers is prevented, with this package  installed *"
+       subgroups:
+          - name: "  nvidia-installer-cleanup"
+            description: "  cleanup after driver installation with the nvidia-installer"
+            packages:
+               - nvidia-installer-cleanup
+- name: "Wine All in One"
+  description: "Windows Compatibility Layer"
+  critical: false
+  selected: false
+  expanded: false
+  subgroups:
+     - name: "  wine"
+       description: "  Windows API implementation - standard suite"
+       packages:
+          - wine
+     - name: "  winetricks"
+       description: "  simple tool to work around common problems in Wine"
+       packages:
+          - winetricks
